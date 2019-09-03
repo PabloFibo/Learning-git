@@ -1,0 +1,31 @@
+/* Variables */
+
+$font-header: 'Cormorant Garamond', sans-serif;
+$font-text: 'Fira Sans, sans-serif;
+
+$color-one: #32CD32; /* green */
+$color-two: #DC143C; /* red */
+$color-three: #0000CD; /* medium-blue */
+$color-four: #ffffff; /* white */
+$color-five: #8B008B; /* magenta */
+
+
+/* Global */
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    margin: none;
+    line-height: 1.7;
+  }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 96px;
+}
